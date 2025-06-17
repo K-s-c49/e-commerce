@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-7qt%e$1av67x0zmr@o00c%*5zz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'e-commerce-4-2u6o.onrender.com').split(',')
+ALLOWED_HOSTS = ['e-commerce-4-2u6o.onrender.com']
 #'e-commerce-xb95.onrender.com'
 
 
