@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-7qt%e$1av67x0zmr@o00c%*5zz6p^v6=b8et10_w7$t396w4@l
 DEBUG = True
 
 ALLOWED_HOSTS = ['e-commerce-xb95.onrender.com']
+#'e-commerce-xb95.onrender.com'
 
 
 # Application definition
@@ -116,6 +117,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR/"media"
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

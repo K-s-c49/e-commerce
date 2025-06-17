@@ -34,20 +34,21 @@
                   Products
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" >Bag</a></li>
-                  <li><a class="dropdown-item" >Table-Top</a></li>
-                  <li><a class="dropdown-item">Leather-Pouches</a></li>
-                  <li><a class="dropdown-item">Wallet</a></li>
-                  <li><a class="dropdown-item">School-Combo</a></li>
+                  <li><a class="dropdown-item" href ="{% url "category" "BG" %}">Bag</a></li>
+                  <li><a class="dropdown-item" href ="{% url "category" "TT" %}">Table-Top</a></li>
+                  <li><a class="dropdown-item" href ="{% url "category" "LP" %}">Leather-Pouches</a></li>
+                  <li><a class="dropdown-item" href ="{% url "category" "WL" %}">Wallet</a></li>
+                  <li><a class="dropdown-item" href ="{% url "category" "SC" %}">School-Combo</a></li>
                                     
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white">Contact Us</a>
-              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="{% url "about" %}">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="{% url "contact" %}">Contact Us</a>
+            </li>
             </ul>
             <form class="d-flex" role="search" action="/search">
               <input class="form-control me-2" type="search" placeholder="Search" name="search" aria-label="Search">
